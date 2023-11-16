@@ -1,3 +1,7 @@
+body {
+    min-height: 100vh;
+}
+
 .header,
 body {
     display: flex;
@@ -47,9 +51,10 @@ a {
 
 #inspire-text {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
     color: #1F2937;
     background-color: #E5E7EB;
+    padding: 20px 200px;
 }
 
 .header-content {
@@ -75,7 +80,6 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    flex: 1;
 }
 
 .cards {
@@ -101,7 +105,37 @@ a {
 
 .section-two {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+}
+
+.credit {
+    text-align: right;
+    font-weight: 700;
 }
 
 .section-three {
+    margin: 50px 200px;
+    background-color:#3882F6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 30px;
+}
+
+.sc3-button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    font-weight: 700;
+    width: 150px;
+}
+
+.footer {
+    text-align: center;
 }
